@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Formularios</h1>
+    <h2>Etiquetas Input:</h2>
+    <p>Se utilizan para crear campos de entrada, como cajas de texto, contraseñas, botones de radio, casillas de verificación, etc.</p>
+
+    <input type="text" name="nombre" placeholder="Nombre Completo">
+    <input type="password" name="contraseña" placeholder="Contraseña">
+    <input type="radio" name="genero" value="masculino"> Masculino
+    <input type="radio" name="genero" value="femenino"> Femenino
+    <input type="checkbox" name="suscripcion" checked> Suscbríbase al boletín
+    <br>
+    <br>
+    <h2>Etiquetas textarea:</h2>
+    <p>Se utliizan para crear áreas de texto de varias líneas en un formulario. A diferencia de la etiqueta <b>"input type=text"</b>, que crea una caja de texto de una sola línea, <b>textarea</b> permite a los usuarios ingresar y editar texto en un espacio más grande.</p>
+    <textarea name="comentario" placeholder="Comentarios" rows="4" cols="50"></textarea>
+    <br>
+    <br>
+    <h2>Etiquetas select y action:</h2>
+    <p>Se utilizan para crear listas desplegables (también conocidas como menús desplegables o selectores) en formularios web. Estas etiquetas permiten a los usuarios seleccionar una opción de una lista predefinida.</p>
+    <select name="ciudad" id="">
+        <option value="ny">Nueva York</option>
+        <option value="la">Los Ángeles</option>
+        <option value="chi">Chicago</option>
+    </select>
+    <br>
+    <br>
+    <h2>Botón "submit":</h2>
+    <p>El elemento clave para enviar un formulario es el botón de tipo "submit". Puedes usar la etiqueta "button" o la etiqueta "input" con el atributo <b>type="submit"</b>.</p>
+    <button type="submit">Enviar</button>
+    <br>
+    <input type="submit">
+    <br>
+    <br>
+    <h2>Métodos de envío:</h2>
+    <ol>
+        <li><i>GET</i></li>
+        <ul>
+            <li>Los datos del formulario se adjuntan a la URL como parámetro.</li>
+            <li>Es visible en la barra de direcciones del navegador.</li>
+            <li>Tiene limitaciones en la cantidad de datos que se pueden enviar.</li>
+            <li>Es menos seguro para información sensible como contraseñas, ya que los datos son visibles en la URL.</li>
+        </ul>
+        <br>
+        <li><i>POST</i></li>
+        <ul>
+            <li>Los datos del formulario se envían en el cuerpo de la solicitud HTTP, no en la URL.</li>
+            <li>No es visible en la barra de direcciones.</li>
+            <li>Puede manejar cantidades más grandes de datos.</li>
+            <li>Es más seguro para información sensible, ya que los datos no son visibles en la URL.</li>
+        </ul>
+    </ol>
+    <br>
+    <p>En resumen, el método <b>GET</b> se utiliza generalmente para solicitudes de búsqueda o solicitudes donde la información no es sensible y puede ser visible en la URL. El método <b>POST</b> se utiliza para enviar datos sensibles o cuando la cantidad de datos es grande y no se desea mostrar la URL.</p>
+    <br>
+    <h2>Formularios input: text</h2>
+    <form>
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre">
+        <label for="apellido">Apellido</label>
+        <input type="text" name="apellido" id="apellido">
+    </form>
+    <br>
+    <h2>Formularios input: radio button</h2>
+    <form>
+        <label for="empleado">Empleado</label>
+        <input type="radio" name="situacion-laboral" id="empleado">
+        <label for="desempleado">Desempleado</label>
+        <input type="radio" name="situacion-laboral" id="deseempleado">
+        <label for="busqueda">En búsqueda activa</label>
+        <input type="radio" name="situacion-laboral" id="empleado">
+    </form>
+    <br>
+    <h2>Formularios input:checkbox</h2>
+    <form>
+        <label for="html">HTML</label>
+        <input type="checkbox" name="tecnologias" id="html" value="1">
+        <label for="css">CSS</label>
+        <input type="checkbox" name="tecnologias" id="css" value="2">
+        <label for="javascript">JAVASCRIPT</label>
+        <input type="checkbox" name="tecnologias" id="javascript" value="3">
+        <label for="react">REACT</label>
+        <input type="checkbox" name="tecnologias" id="react" value="4">
+    </form>
+    <br>
+    <h2>Formularios input type: submit y envío</h2>
+    <input type="submit">
+    <br>
+    <h2>Input email y password:</h2>
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email" value="pejocaco@gmail.com" disabled>
+    <label for="password">Password</label>
+    <input type="password" name="" id="password">
+    <br>
+    <input type="submit" value="Entrar">
+    <input type="reset" value="Limpiar">
+    <br>
+    <br>
+    <form method="get">
+        <input type="text" name="name" id="name" placeholder="Escribe tú nombre" required><br>
+        <input type="text" name="lastname" id="lastname" placeholder="Escribe tú apellido" required><br>
+        <input type="text" name="job" id="job" placeholder="Escribe tú trabajo" autofocus>
+
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

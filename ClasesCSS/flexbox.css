@@ -1,0 +1,17 @@
+.flex-container{
+    display: flex; /* De esta forma hacemos que se comporte como flexbox*/
+    /* flex-wrap: wrap;  nowrap es no contenido o no empaquetado, wrap lo contrario*/
+    background-color: rgb(80, 146, 146);
+    height: 200px;
+}
+
+.flex-container > div{ /* Esto se escribe así para que los hijos de flex-container que son div tengan estas características */
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 30px;
+    margin: 10px;
+
+}

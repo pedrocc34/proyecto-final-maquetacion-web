@@ -1,0 +1,31 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 2px;
+}
+
+.curva1 {
+    animation: prueba 1s linear infinite alternate ;
+}
+.curva2 {
+    animation: prueba 1s ease infinite alternate ;
+}
+.curva3 {
+    animation: prueba 1s ease-in infinite alternate ;
+}
+.curva4 {
+    animation: prueba 1s ease-out infinite alternate ;
+}
+.curva5 {
+    animation: prueba 1s ease-in-out infinite alternate ;
+}
+
+@keyframes prueba {
+    from {
+        width: 100px;
+    }
+    to {
+        width: 200px;
+    }
+}

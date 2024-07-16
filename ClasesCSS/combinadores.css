@@ -1,0 +1,19 @@
+body{
+    background-color: antiquewhite;
+}
+/* 
+div p {
+    background-color: aquamarine;
+}
+
+.hijo>p {
+    background-color: blueviolet;
+}
+
+.adyacentes+p{
+    background-color: brown;
+} */
+
+div~p{
+    background-color: rgb(25, 207, 40);
+}

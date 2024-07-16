@@ -1,0 +1,23 @@
+/* COLORES: */
+/* Color Names: 140 tipos de nombres en CSS */
+h4{
+    color: firebrick;
+    background-color: antiquewhite;
+}
+
+/* Colores RGB: red, green, blue */
+h4{
+    color: rgb(31, 107, 92);
+    background-color: rgba(255, 0, 255, 0.2); /* tiene alpha que es la transparencia */
+}
+
+/* Colores con código hexagesimal */
+h4{
+    color: #cf1313;
+    background-color: #13a81f73;
+}
+
+/* Colores HLS */
+h4{
+    color: hsl(192, 70%, 46%);
+}

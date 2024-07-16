@@ -1,0 +1,16 @@
+div{
+    width: 500px;
+    height: auto;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+
+p{
+    text-indent: 50px; /* Sirve para definir el tamaño de la sangría al empezar el párrafo */
+    letter-spacing: 1px; /* Sirver para dar espacio entre cada letra */
+    line-height: 1.5; /* Sirve para dar alto a cada línea de texto, espacio entre renglones. Es un formato factor 1 es 100% */
+    word-spacing: 5px; /* Sirve para determinar el espacio entre cada palabra */
+
+    text-shadow: 3px 3px 3px red,-3px -3px 3px gray; /* Sirve para dar sombra al texto */
+}

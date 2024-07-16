@@ -1,0 +1,8 @@
+::marker{
+    color: red;
+}
+
+li::selection{
+    background-color: aqua;
+    color: blueviolet;
+}

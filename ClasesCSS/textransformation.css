@@ -1,0 +1,22 @@
+div{
+    width: 100px;
+    height: 30px;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Formato para letra toda en mayúscula */
+.uppercase{
+    text-transform: uppercase;
+}
+
+/* Formato para letra toda en minúscula */
+.lowercase{
+    text-transform: lowercase;
+}
+
+/* Formato para primerta letra de cada palabra en mayúscula */
+.capitalize{
+    text-transform: capitalize;
+}

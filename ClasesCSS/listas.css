@@ -1,0 +1,20 @@
+ul.desordenada{
+    list-style-image: url(assets/img/icono.png);
+}
+
+ol.ordenada{
+    list-style-type: lower-alpha;
+    list-style-position: inside;
+}
+
+ul.margenes{
+    background: #5c0909;
+    margin: 5px;
+    padding: 10px 0;
+}
+
+ul.margenes li{
+    background: #6a8b1b;
+    padding: 10px;
+    margin: 5px;
+}

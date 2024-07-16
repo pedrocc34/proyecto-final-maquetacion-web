@@ -1,0 +1,39 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 1px;
+    transition: width 1s, height 1s, transform 2s;
+    
+}
+
+div:hover{
+    width: 300px;
+    height: 300px;
+    transform: rotate(180deg);
+}
+
+
+button{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(0, 174, 255);
+    color: black;
+    margin: 1px;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+button:hover{
+   color: rgb(35, 35, 84);
+   background-color: azure;
+}
+
+input{
+    width: 150px;
+    border-radius: 5px;
+    transition: background-color 0.5s;
+}
+
+input:hover{
+    background-color: aquamarine;
+}

@@ -1,0 +1,73 @@
+input[type="text"] {
+    background-color: beige;
+}
+
+input[type="text"]:hover{
+    background-color: rgb(177, 184, 82);
+}
+
+input[type="number"] {
+    background-color: red;
+}
+
+input[type="email"] {
+    background-color: rgb(72, 255, 0);
+}
+
+input[type="date"] {
+    background-color: rgb(255, 0, 242);
+}
+
+input[type="text"] {
+    background-color: beige;
+}
+
+input[type="number"]:hover {
+    background-color: red;
+}
+
+input[type="email"]:hover {
+    background-color: rgb(72, 255, 0);
+}
+
+input[type="date"]:hover {
+    background-color: rgb(255, 0, 242);
+}
+
+
+/* h1{
+    text-align: center;
+}
+
+img{
+    opacity: 1;
+}
+
+img:hover{
+    opacity: 0.5;
+}
+
+div.container{
+    background: url(assets/img/nubes.webp);
+    background-size: cover;
+    border: 2px groove black;
+    width: 50%;
+    margin: auto;
+}
+
+div.caja-transparente{
+    margin: 30px;
+    background-color: black;
+    border: 1px solid black;
+    opacity: 0.6;
+}
+
+div.caja-transparente:hover{
+    background-color: blueviolet;
+}
+
+p{
+    margin: 10px;
+    color: white;
+    text-align: center;
+} */

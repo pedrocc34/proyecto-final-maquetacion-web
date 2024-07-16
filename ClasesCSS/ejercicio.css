@@ -1,0 +1,17 @@
+h2{
+    text-align: center;
+    color: antiquewhite;
+}
+
+li{
+    margin: 50px;
+    display: inline-block;
+}
+
+.nav-bar{
+    background-color: aquamarine;
+    list-style-type: none;
+    width: 100%;
+    position: fixed;
+    top: 5px;
+}

@@ -1,0 +1,19 @@
+div,span{
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+
+.cajita{
+    width: 300px;
+    height: 150px;
+    background-color: red;
+    margin: 50px; /* Sentido horario */
+}
+
+.cajita2{
+    width: 300px;
+    height: 150px;
+    background-color: blue;
+    margin: 50px;
+}

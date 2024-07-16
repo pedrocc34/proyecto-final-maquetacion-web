@@ -1,0 +1,49 @@
+/* selector:pseudoclase{
+    propiedad:valor;
+} */
+
+
+a:link{
+    color: chocolate;
+}
+
+a:visited{
+    color: blueviolet;
+}
+
+a:hover{
+    background-color: aqua;
+}
+
+a:active{
+    color: blue;
+}
+
+a.especial:hover{
+    background-color: black;
+    color: white;
+}
+
+span:hover{
+    background-color: blue;
+}
+
+
+button:hover{
+    background-color: aqua;
+}
+
+
+b:first-child{
+    color: blueviolet;
+}
+
+
+input:invalid{
+    border: 1px solid red;
+}
+
+input:valid{
+    border: 1px solid green;
+}
+

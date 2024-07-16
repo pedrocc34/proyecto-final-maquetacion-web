@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+}
+
+h1,table,th,td{
+    border: 1px solid black;
+    color: white;
+}
+
+.titulo{
+    background-color: blueviolet;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    margin: 10px;
+}
+
+th,td{
+    text-align: left;
+    padding: 15px;
+}
+
+tr:hover{
+    background-color: #979b77;
+}
+
+th{
+    height: 20px;
+}

@@ -1,0 +1,11 @@
+/* body{
+    background-image: url(assets/img/nubes.webp);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+} */
+
+body{
+    background: url(assets/img/nubes.webp);
+    background-size: cover;
+}

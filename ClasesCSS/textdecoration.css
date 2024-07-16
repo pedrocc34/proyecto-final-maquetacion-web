@@ -1,0 +1,27 @@
+div{
+    width: 100px;
+    height: 30px;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+
+.overline{
+    text-decoration: overline red 1px;
+}
+
+.line-through{
+    text-decoration: line-through yellow 2px;
+}
+
+.underline{
+    text-decoration: underline blue wavy 1px;
+}
+
+/* Los estilos que  puede tomar son:
+solid, double, dotted, dashed, wavy
+*/
+
+.mix{
+    text-decoration-line: underline overline;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinadores de Selección</title>
+    <link rel="stylesheet" href="combinadores.css">
+</head>
+<body>
+    
+    <h1>Combinadores de Selección:</h1>
+
+    <ol>
+
+        <li><h4>Selector Descendiente</h4></li>
+        
+        <p>Esto es un párrafo</p>
+        
+        <div>
+            <p>Esto es otr párrafo dentro de un div</p>
+            <p>Esto es otr párrafo dentro de un div</p>
+            <span><p>Este es un nieto del div</p></span>
+        </div>
+        
+        <p>Este es un párrafo ubicado después del div</p>
+        <p>Este es un párrafo ubicado después del div</p>
+
+        <br>
+        
+        <li><h4>Selector De Hijo (>)</h4></li>
+
+        <p>Esto es un párrafo</p>
+        
+        <div class="hijo">
+            <p>Esto es otr párrafo dentro de un div</p>
+            <p>Esto es otr párrafo dentro de un div</p>
+            <span><p>Este es un nieto del div</p></span>
+        </div>
+        
+        <p>Este es un párrafo ubicado después del div</p>
+        <p>Este es un párrafo ubicado después del div</p>
+
+        <br>
+
+        <li><h4>Selector De Hermanos Adyacentes (+)</h4></li>
+
+        <p>Esto es un párrafo</p>
+        
+        <div class="adyacentes">
+            <p>Esto es otr párrafo dentro de un div</p>
+            <p>Esto es otr párrafo dentro de un div</p>
+            <span><p>Este es un nieto del div</p></span>
+        </div>
+        
+        <p>Este es un párrafo ubicado después del primer div por fuera!!</p> <!--Este se marca por ser el que sigue después del div-->
+        <p>Este es un párrafo ubicado después del primer div por fuera</p> 
+
+        <div class="adyacentes">
+            <p>Esto es otr párrafo dentro de un div</p>
+            <p>Esto es otr párrafo dentro de un div</p>
+            <span><p>Este es un nieto del div</p></span>
+        </div>
+
+        <p>Este es un párrafo ubicado después del segundo div por fuera!!</p> <!--Este se marca por ser el que sigue después del div-->
+        <p>Este es un párrafo ubicado después del segundo div por fuera</p>
+
+        <br>
+
+        <li><h4>Selector General de Hermanos (~)</h4></li>
+
+        <p>Esto es un párrafo</p> <!--Este no se marca por estar antes del div-->
+        
+        <div class="general">
+            <p>Esto es otr párrafo dentro de un div</p> <!--Este se marca-->
+            <p>Esto es otr párrafo dentro de un div</p> <!--Este se marca-->
+            <span><p>Este es un nieto del div</p></span>
+        </div>
+        
+        <p>Este es un párrafo ubicado después del div</p> <!--Este se marca-->
+        <p>Este es un párrafo ubicado después del div</p> <!--Este se marca-->
+
+    </ol>
+
+</body>
+</html>

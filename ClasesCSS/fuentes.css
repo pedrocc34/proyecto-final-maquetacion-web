@@ -1,0 +1,38 @@
+div{
+    width: 500px;
+    height: auto;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+
+p{
+    text-indent: 50px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    word-spacing: 5px;
+}
+
+.serif{
+    font-family:'Times New Roman', Times, serif ;
+}
+
+.sans-serif{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.monospace{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.cursiva{
+    font-family: 'lucida handwriting', cursive;
+}
+
+.fantasy{
+    font-family: 'copperplate', fantasy;
+}
+
+.style{
+    font-style: italic;
+}
