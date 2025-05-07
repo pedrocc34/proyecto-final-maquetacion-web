@@ -15,11 +15,13 @@
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"rel="stylesheet"/>
 
     <!-- https://fonts.google.com/ -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
-
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Roboto+Mono:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
 </head>
+    
 <body>
     
     <!-- Esta seccción es la cabecera de la página web la cual tendrá logo y barra de nevegación -->
@@ -27,12 +29,7 @@
         <!-- LOGO -->
         <a href="#" class="logo">PEDRO CARDONA</a>
 
-        <!-- Truco para que el botón del menu sea clickeable sin usar JavaScript -->
-        <input type="checkbox" name="checkbox" id="menu-toggle">
-        <label for="menu-toggle" class="menu-icon-action">
-            <div class='bx bx-menu' id="menu-icon"></div>
-        </label>
-        
+        <div class='bx bx-menu' id="menu-icon"></div>        
 
         <ul class="navlist">
             <li><a href="#">Home</a></li>
@@ -60,21 +57,24 @@
             <div class="hero-img">
                 <img src="assets/img/Yo.jpg" alt="fondo jordan foto"> <!-- To Do: escoger imagen para el fondo -->
             </div>
+            
         </section>
 
         <div class="icons">
-            <a href="#"><i class="ri-facebook-box-fill"></i></a>
+            <a href="#"><i class="ri-linkedin-box-fill"></i></a>
             <a href="#"><i class="ri-instagram-line"></i></a>
             <a href="#"><i class="ri-youtube-fill"></i></a>
             <a href="#"><i class="ri-github-fill"></i></a>
-
         </div>
 
         <div class="scroll-down">
             <a href="#"><i class="ri-arrow-down-s-fill"></i></a>
         </div>
+    
+        <script src="https://unpkg.com/scrollreveal"></script>
 
-
+        <script src="script.js"></script>
 
 </body>
+    
 </html>
