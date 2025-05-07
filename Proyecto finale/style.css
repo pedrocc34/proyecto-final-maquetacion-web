@@ -1,114 +1,118 @@
-/* NORMALIZACIÓN */
+/* NORMALIZACIÓN:  */
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box; /* Esto mantiene el ancho y el alto a pesar de padding y border */
-    font-family:'Inconsolata', monospace;
-    list-style: none; /* Quitar los puntos de decoración de las listas */
+    box-sizing: border-box; /* Esto mantiene el ancho y alto a pesar de padding y border*/
+    font-family: 'Inconsolata', monospace;
+    list-style: none; /* Quitar los puntos e decoración de las listas */
     text-decoration: none; /* Esto quita el subrayado de los enlaces */
     color: white;
-  }
-  
-  body {
-      background-color: black; /* TO DO: Borrar cuando tengamos el fondo final */
-  }
-  
-  header {
-      position: fixed; /* Esto hace que el header se quede fijo en la parte superior */
-      right: 0;
-      top: 0;
-      z-index: 100; /* Esto hace que el header se muestre por encima */
-      width: 100%;
-      display: flex; /* Esto hará que los elementos se pongan en línea */
-      align-items: center; /* Centra verticalmente */
-      justify-content: space-between; /* Hace que los elemento se separen */
-      padding: 15px 3%;
-      background-color: transparent;
-  }
-  
-  .logo {
-      font-size: 40px;
-      font-weight: 800; /* Este es el grueso de las letras */
-  }
-  
-  .navlist {
-      display: flex; /* Esto sirve para que los elementos de la lista ul se pongan en línea */
-  }
-  
-  .navlist a {
-      margin-left: 60px; /* Esto es para separar las palabras */
-      font-size: 15px;
-      font-weight: 600;
-      border-bottom: 2px solid transparent; /* Este es un subrayado transparente */
-      transition: all .5s ease; /* Esto es para animar todas las características del .navlist a */
-  }
-  
-  .navlist a:hover {
-      border-bottom: 2px solid white; /* Este es un subrayado blanco que aparecerá cuando estemos encima con el cursor */
-  }
-  
-    #menu-icon {
-      display: none; /* Esto lo pongo en none para que sólo se vea cuando la página esté colapsada de forma horizontal */
-      font-size: 35px;
-      z-index: 101; /* Para que esté sobre el header */
-      cursor: pointer; /* Para que aparezca la mano cuando ponemos el cursor encima */
-  }
-  
-  #menu-toggle {
-      display: none; /* Nunca quiero que se vea el checkbox */
-  }
-  
-  #menu-icon-action {
-      display: none; /* Esto para que no se le pueda hacer click */
-  }
-  
-  .hero {
-      height: 100%;
-      width: 100%;
-      min-width: 100vh; /* Esto es para que ocupe todo el alto mínimo disponible */
-      background: linear-gradient(245.59deg, #31494e 0%, #385e70 25%, #131313 75%); /* Fondo de color gradiente */
-      position: relative; /* Para que sea relativo el contenedor (nos permite usar top, bottom, left y right) */
-      display: grid; /* Esto es para que el hero se pueda dividir en dos columnas */
-      grid-template-columns: 1fr 1fr; /* Las dos columnas */
-      align-items: center; /* Para que se pueda alinear verticalmente el hero */
-      gap: 2rem; /* Haya espacio de 2 rem entre las dos columnas */
-  }
-  
-  section {
-      padding: 0 8%;
-  }
+}
 
-  .hero-text h5 {
+body{
+    background-color: black; /* TODO: borrar cuando tengamos el fondo final */
+}
+
+header {
+    position: fixed; /* Esto hace que el haader se quede fijo en la parte superior */
+    right: 0;
+    top: 0;
+    z-index: 100; /* Esto hace que el header se muestre por encima*/
+    width: 100%;
+    display: flex; /* Esto hará que los elementos se pongan en linea */
+    align-items: center; /* Centra verticalmente */
+    justify-content: space-between; /* Que los elementos se separen */
+    padding: 15px 3%;
+    background-color: transparent;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: 800; /* este es el grueso de las letras */
+}
+
+.navlist {
+    display: flex; /* Esto sirve para que los elementos de la lista UL se pongan en linea*/
+}
+
+.navlist a {
+    margin-left: 60px; /* es para separar las palabras */
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent; /* este es un subrayado transparente */
+    transition: all .5s ease; /* esto es para animar todas las caracteristicas del .navlist a */
+}
+
+.navlist a:hover {
+    border-bottom: 2px solid white; /* este es un subrayado blanco que aparecerá cuando hacemos estamos encima con el mouse */
+}
+
+ #menu-icon{
+    display: none;  /* lo pongo en none para que solo se vea cuando la página esté colapsada de forma horizontal */
+} 
+
+#menu-icon{
+    font-size: 35px;
+    z-index: 101; /* para que este sobre el header */
+    cursor: pointer; /* para que aparezca la manito cuando ponemos el mouse encima */
+    display: none;
+}
+
+#menu-toggle{
+    display: none; /* nunca quiero que se vea el checkbox*/
+}
+
+.menu-icon-action{
+    display: none; /* para que no se le pueda hacer click*/
+}
+
+.hero{
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(245.59deg, #31494e 0%, #385e70 25%, #131313 75%); /* fondo de color gradiente */
+    position: relative; /* Para que sea relativo al contenedor (nos permite usar top, bottom, left y right) */
+    display: grid; /* Para que el hero se pueda dividir en dos columnas */
+    grid-template-columns: 1fr 1fr; /* las 2 columnas */
+    align-items: center; /* para alinear verticalmente el hero */
+    gap: 2rem; /* haya espacio de 2 rem entre las dos columnas */
+}
+
+section{
+    padding: 0 8%;
+}
+
+.hero-text h5 {
     font-size: 14px;
     font-weight: 400;
     margin-bottom: 25px;
-  }
+}
 
-  .hero-text h1 {
-    font-family: 'Roboto Mono' , monospace;
+.hero-text h1 {
+    font-family: 'Roboto Mono', monospace;
     font-size: 50px;
     line-height: 1;
     margin: 0 0 30px;
-  }
+}
 
-  .hero-text h4 {
+.hero-text h4 {
     font-size: 18px;
     font-weight: 600;
     margin-top: 10px;
-  }
+}
 
-  .hero-text p {
+.hero-text p {
     font-size: 80%;
     margin-bottom: 40px;
     line-height: 1.9;
-  }
+}
 
-  .hero-img img {
+.hero-img img{
     width: 400px;
     margin: 10% 0 0 10%;
     height: auto;
-    transition: all 5s linear; /* Esto hace que la transición sea lineal */
-  }
+    transition: all 5s linear; /* esto hace que la transición sea lineal */
+}
 
 .hero-img img:hover {
     width: 450px;
@@ -116,8 +120,8 @@
 }
 
 .hero-text a {
-    display: inline-block; /* Esto permite que se les pueda dar una ancho y un alto */
-    background-color: #455153;
+    display: inline-block;
+    background-color: #4d4d4d;
     border: 1px solid transparent;
     padding: 15px 30px;
     line-height: 1.4;
@@ -125,7 +129,7 @@
     font-weight: 500;
     border-radius: 30px;
     text-transform: uppercase;
-    transition: all 5s ease;
+    transition: all .5s ease;
 }
 
 .hero-text a:hover {
@@ -134,13 +138,13 @@
     transform: translateX(8px);
 }
 
-.hero-text a.videos {
+.hero-text a.videos{
     background-color: transparent;
     border: 1px solid white;
-    margin-left: 20px;
+    margin-left:  20px;
 }
 
-.hero-text a.videos i {
+.hero-text a.videos i{
     vertical-align: middle;
     margin-right: 5px;
 }
@@ -154,12 +158,12 @@
 
 .icons i {
     display: block;
-    margin: 26px;
+    margin: 26px 0;
     font-size: 24px;
-    transition: all .5s ease;
+    transition: all 0.5s ease;
 }
 
-.icons i:hover {
+.icons i:hover{
     color: #4d4d4d;
     transform: translateY(-5px);
 }
@@ -179,11 +183,12 @@
     transition: all .5s ease;
 }
 
-.scroll-down i:hover {
+.scroll-down i:hover{
     transform: translateY(-5px);
 }
 
-/*Acá vamos a hacer mediaqueries para que la web sea responsive*/
+
+/* Aca vamos a hacer mediaqueries para que la web sea responsive */
 
 @media (max-width:992px){
     section {
@@ -204,7 +209,7 @@
         margin: 10% 0 0 10%;
     }
 
-    .hero-text p{
+    .hero-text p {
         font-size: 70%;
     }
 
@@ -232,11 +237,11 @@
         padding-top: 100px;
     }
 
-    .hero-img img{
+    .hero-img img {
         margin: 0;
     }
 
-    .hero{
+    .hero {
         height: 100%;
         gap: 1rem;
         grid-template-columns: 1fr;
@@ -248,7 +253,7 @@
         right: -100%;
         width: 200px;
         height: 180px;
-        background-color: #041822ef;
+        background-color: #021719ef;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -256,12 +261,13 @@
         transition: all .5s ease-out;
     }
 
-    .navlist a{
+    .navlist a {
         display: block;
         margin: 7px 0;
     }
 
-    #menu-toggle:checked + label.menu-icon-action + ul{
+    .navlist.open{
         right: 0;
     }
+
 }
